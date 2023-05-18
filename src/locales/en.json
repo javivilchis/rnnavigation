@@ -1,0 +1,13 @@
+{
+    "dummyNamespace": {
+        "medium": "medium is great!"
+    },
+    "home": "testhome",
+    "navigation": {
+        "home": "Homeee",
+        "book": "Book Room",
+        "contact" : "Contact Us",
+        "rewards" : "My Rewards",
+        "locations" : "Locations"
+    }
+}

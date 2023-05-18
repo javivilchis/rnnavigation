@@ -1,0 +1,12 @@
+{
+    "dummyNamespace": {
+        "medium": "medio es bueno!"
+    },
+    "navigation": {
+        "home": "Casa",
+        "book": "Reservar Abitacion",
+        "contact" : "Contactarnos",
+        "rewards" : "Recompensas",
+        "locations" : "Localidades"
+    }
+}
