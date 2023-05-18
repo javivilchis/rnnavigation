@@ -40,7 +40,7 @@ const CustomDrawerContent = (props) => {
 }
 
 const DrawerNavigator = ({ nav }) => {
-  const {t} = useTranslation();
+ 
   return (
     <Drawer.Navigator
       screenOptions={({ navigation }) => ({

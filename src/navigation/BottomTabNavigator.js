@@ -16,20 +16,20 @@ const Tab = createBottomTabNavigator()
 
 const tabOptions = ({ route }) => {
   const item = routes.find(routeItem => routeItem.name === route.name)
-
+  const {t} = useTranslation();
   if (!item.showInTab) {
     return {
       tabBarButton: () => <View style={{ width: 0 }} />,
       headerShown: false,
       tabBarStyle: styles.tabContainer,
-      title: item.title,
+      title: ()=> {t('navigation.'+ item.title)},
     }
   }
 
   return {
     tabBarIcon: ({ focused }) => item.icon(focused),
     tabBarLabel: () => (
-      <Text style={styles.tabBarLabel}>{item.title || ''}</Text>
+      <Text style={styles.tabBarLabel}>{t('navigation.'+ item.title) || ''}</Text>
     ),
     headerShown: false,
     tabBarStyle: styles.tabContainer,
