@@ -26,7 +26,7 @@ const CustomDrawerContent = (props) => {
               key={route.name}
               label={() => (
                 <Text style={focused ? styles.drawerLabelFocused : styles.drawerLabel}>
-                  {route.title}
+                  {t('navigation.'+ route.title)}
                 </Text>
               )}
               onPress={() => props.navigation.navigate(route.name)}
@@ -40,7 +40,7 @@ const CustomDrawerContent = (props) => {
 }
 
 const DrawerNavigator = ({ nav }) => {
-  const {t} = useTranslation();
+ 
   return (
     <Drawer.Navigator
       screenOptions={({ navigation }) => ({
@@ -57,7 +57,7 @@ const DrawerNavigator = ({ nav }) => {
       drawerContent={(props) => <CustomDrawerContent {...props} nav={nav} />}
     >
       <Drawer.Screen name={screens.HomeTab} component={BottomTabNavigator} options={{
-        title: 'Home',
+        title: 'ssssHome',
          headerTitle: () => <Text style={{color: "#fff", fontSize: 20}}><Text style={{fontWeight: 'bold'}}>Arbol</Text> Navigation</Text>, //<Image source={require('../assets/arbol_logo.png')} /> "arbol",
        
       }}/>

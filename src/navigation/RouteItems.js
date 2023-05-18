@@ -38,7 +38,7 @@ export const routes = [
   {
     name: screens.Home,
     focusedRoute: screens.HomeStack,
-    title: 'Home',
+    title: "Home",
     showInTab: true,
     showInDrawer: false,
     icon: (focused) =>

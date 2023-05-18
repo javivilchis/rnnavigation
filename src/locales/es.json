@@ -2,11 +2,14 @@
     "dummyNamespace": {
         "medium": "medio es bueno!"
     },
+    "home": {
+        "title": "Pantalla de la casa!"
+    },
     "navigation": {
-        "home": "Casa",
-        "book": "Reservar Abitacion",
-        "contact" : "Contactarnos",
-        "rewards" : "Recompensas",
-        "locations" : "Localidades"
+        "Home": "Casa",
+        "Book Room": "Reservar Abitacion",
+        "Contact Us" : "Contactarnos",
+        "My Rewards" : "Recompensas",
+        "Locations" : "Localidades"
     }
 }
