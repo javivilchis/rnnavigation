@@ -25,7 +25,7 @@ const Home = () => {
 
   return(
   <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', paddingHorizontal: 10 }}>
-    <Text style={{ fontSize: 20, paddingBottom: 10}}>Home screen!</Text>
+    <Text style={{ fontSize: 20, paddingBottom: 10}}>{t('home.title')}</Text>
     <DropDownPicker
         open={open}
         value={value}

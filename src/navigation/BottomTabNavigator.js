@@ -55,7 +55,6 @@ useEffect(() => {
       <Tab.Screen name={screens.HomeStack} component={HomeStackNavigator} />
       <Tab.Screen name={screens.BookStack} component={BookStackNavigator} />
       <Tab.Screen name={screens.ContactStack} component={ContactStackNavigator} />
-
       <Tab.Screen name={screens.MyRewardsStack} component={MyRewardsStackNavigator} />
       <Tab.Screen name={screens.LocationsStack} component={LocationsStackNavigator} />
     </Tab.Navigator>
