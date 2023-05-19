@@ -53,13 +53,18 @@ const DrawerNavigator = ({ nav }) => {
             <Icon name="bars" size={20} color="#fff" />
           </TouchableOpacity>
         ),
+        headerRight: () => (
+          <TouchableOpacity onPress={() => { (navigation)=> navigation.navigate("PreferencesStack", {screen: 'Preferences'})}} style={styles.headerRight}>
+            <Icon name="user" size={20} color="#fff" />
+          </TouchableOpacity>
+        )
       })}
       drawerContent={(props) => <CustomDrawerContent {...props} nav={nav} />}
     >
       <Drawer.Screen name={screens.HomeTab} component={BottomTabNavigator} options={{
-        title: 'ssssHome',
+        title: 'Home',
          headerTitle: () => <Text style={{color: "#fff", fontSize: 20}}><Text style={{fontWeight: 'bold'}}>Arbol</Text> Navigation</Text>, //<Image source={require('../assets/arbol_logo.png')} /> "arbol",
-       
+         
       }}/>
     </Drawer.Navigator>
   )
@@ -68,6 +73,9 @@ const DrawerNavigator = ({ nav }) => {
 const styles = StyleSheet.create({
   headerLeft: {
     marginLeft: 15,
+  },
+  headerRight: {
+    marginRight: 15,
   },
   headerTitle: {
     color: 'white',

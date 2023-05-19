@@ -7,6 +7,7 @@ import BookStackNavigator from './stack-navigators/BookStackNavigator'
 import ContactStackNavigator from './stack-navigators/ContactStackNavigator'
 import MyRewardsStackNavigator from './stack-navigators/MyRewardsStackNavigator'
 import LocationsStackNavigator from './stack-navigators/LocationsStackNavigator'
+import PreferencesStackNavigator from './stack-navigators/PreferencesStackNavigator'
 import { routes, screens } from './RouteItems'
 
 import '../locales/index';
@@ -57,6 +58,7 @@ useEffect(() => {
       <Tab.Screen name={screens.ContactStack} component={ContactStackNavigator} />
       <Tab.Screen name={screens.MyRewardsStack} component={MyRewardsStackNavigator} />
       <Tab.Screen name={screens.LocationsStack} component={LocationsStackNavigator} />
+      <Tab.Screen name={screens.PreferencesStack} component={PreferencesStackNavigator} />
     </Tab.Navigator>
   )
 }

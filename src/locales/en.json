@@ -1,15 +1,17 @@
 {
-    "dummyNamespace": {
-        "medium": "medium is great!"
-    },
-    "home": {
-        "title": "Home screen!"
-    },
     "navigation": {
         "Home": "Homeee",
         "Book Room": "Book Room",
         "Contact Us" : "Contact Us",
         "My Rewards" : "My Rewards",
-        "Locations" : "Locations"
+        "Locations" : "Locations",
+        "Preferences" : "Preferences"
+    },
+    "home": {
+        "title": "Home screen!"
+    },
+    "book_room": {
+        "title" : "Book Room"
     }
+    
 }

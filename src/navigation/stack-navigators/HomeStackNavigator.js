@@ -34,7 +34,7 @@ const Home = () => {
         setValue={setValue}
         setItems={setItems}
       />
-      <Text style={{ fontSize: 20, paddingVertical: 10}}>{t('dummyNamespace.medium')}</Text>
+      
   </View>
 )}
 

@@ -14,6 +14,8 @@ export const screens = {
   MyRewards: 'MyRewards',
   LocationsStack: 'LocationsStack',
   Locations: 'Locations',
+  PreferencesStack: 'PreferencesStack',
+  Preferences: 'Preferences'
 }
 
 export const routes = [
@@ -116,6 +118,24 @@ export const routes = [
     name: screens.Locations,
     focusedRoute: screens.LocationsStack,
     title: 'Locations',
+    showInTab: false,
+    showInDrawer: false,
+    icon: (focused) =>
+      <Icon name="map-marker" size={30} color={focused ? 'purple' : '#000'} />,
+  },
+  {
+    name: screens.PreferencesStack,
+    focusedRoute: screens.PreferencesStack,
+    title: 'Preferences',
+    showInTab: false,
+    showInDrawer: true,
+    icon: (focused) =>
+      <Icon name="map-marker" size={30} color={focused ? 'purple' : '#000'} />,
+  },
+  {
+    name: screens.Preferences,
+    focusedRoute: screens.PreferencesStack,
+    title: 'Preferences',
     showInTab: false,
     showInDrawer: false,
     icon: (focused) =>
