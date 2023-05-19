@@ -17,7 +17,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "Gizmodo.com"
 			},
 			"author": "Kyle Barr",
@@ -43,7 +43,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "Gizmodo.com"
 			},
 			"author": "Nikki Main",
@@ -160,7 +160,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "Gizmodo.com"
 			},
 			"author": "Kyle Barr",
@@ -186,7 +186,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "The Guardian"
 			},
 			"author": "Erum Salam",
@@ -199,7 +199,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "Slashdot.org"
 			},
 			"author": "msmash",
@@ -329,7 +329,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "Slashdot.org"
 			},
 			"author": "msmash",
@@ -394,7 +394,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "Slashdot.org"
 			},
 			"author": "msmash",
@@ -446,7 +446,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "Hackaday"
 			},
 			"author": "Tom Nardi",
@@ -485,7 +485,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "Xataka.com"
 			},
 			"author": "Enrique Pérez",
@@ -498,7 +498,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "Hipertextual"
 			},
 			"author": "Gabriel Erard",
@@ -537,7 +537,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "Xataka.com"
 			},
 			"author": "Enrique Pérez",
@@ -602,7 +602,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "ReadWrite"
 			},
 			"author": "Joel Comm",
@@ -615,7 +615,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "Xataka.com"
 			},
 			"author": "Enrique Pérez",
@@ -641,7 +641,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "The Guardian"
 			},
 			"author": "Luke Taylor in Bogotá",
@@ -654,7 +654,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "Slashdot.org"
 			},
 			"author": "BeauHD",
@@ -667,7 +667,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "heise online"
 			},
 			"author": "Mark Mantel",
@@ -745,7 +745,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "heise online"
 			},
 			"author": "Adam Popescu",
@@ -758,7 +758,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "AppleInsider"
 			},
 			"author": "news@appleinsider.com (Wesley Hilliard)",
@@ -771,7 +771,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "Xataka.com"
 			},
 			"author": "Enrique Pérez",
@@ -784,7 +784,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "Xataka.com"
 			},
 			"author": "Enrique Pérez",
@@ -797,7 +797,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "Genbeta.com"
 			},
 			"author": "Bárbara Bécares",
@@ -836,7 +836,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "heise online"
 			},
 			"author": "Michael Plura",
@@ -849,7 +849,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "heise online"
 			},
 			"author": "Martin Holland",
@@ -862,7 +862,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "heise online"
 			},
 			"author": "Axel Kannenberg",
@@ -875,7 +875,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "9to5Mac"
 			},
 			"author": "Filipe Espósito",
@@ -901,7 +901,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "MarketWatch"
 			},
 			"author": "Anushree Dave",
@@ -914,7 +914,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "MakeUseOf"
 			},
 			"author": "Katie Rees",
@@ -927,7 +927,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "VentureBeat"
 			},
 			"author": "Adrian Krion, Spielworks",
@@ -1187,7 +1187,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "MakeUseOf"
 			},
 			"author": "Katie Rees",
@@ -1200,7 +1200,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "MakeUseOf"
 			},
 			"author": "Temitope Olatunji",
@@ -1213,7 +1213,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "MakeUseOf"
 			},
 			"author": "Katie Rees",
@@ -1226,7 +1226,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "MakeUseOf"
 			},
 			"author": "Dmytro Spilka",
@@ -1239,7 +1239,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "Phandroid - News for Android"
 			},
 			"author": "Phandroid Editors",
@@ -1252,7 +1252,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "heise online"
 			},
 			"author": "Martin Weigel",
@@ -1265,7 +1265,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "Genbeta.com"
 			},
 			"author": "Bárbara Bécares",
@@ -1278,7 +1278,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "Threadreaderapp.com"
 			},
 			"author": null,
@@ -1291,7 +1291,7 @@ export default NewsFeed = [{
 		},
 		{
 			"source": {
-				"id": null,
+				"id": "none",
 				"name": "Everstrike.io"
 			},
 			"author": "Andreas Krom",
