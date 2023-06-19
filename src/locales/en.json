@@ -12,6 +12,14 @@
     },
     "book_room": {
         "title" : "Book Room"
+    },
+    "LOGIN": {
+        "USERNAME": "Username",
+        "PASSWORD": "Password",
+        "SIGN_IN" : "Sign In",
+        "FORGOT": "Forgot",
+        "REGISTER": "Register Now",
+        "FIRST_TIME_USER": "First time user"
     }
     
 }

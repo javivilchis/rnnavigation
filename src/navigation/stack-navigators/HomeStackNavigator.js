@@ -27,19 +27,26 @@ const Home = () => {
   return (
 
     <SafeAreaView>
+      <View style={{ paddingVertical: 10, paddingHorizontal: 10, zIndex: 10 }}>
+        <DropDownPicker
+          open={open}
+          value={value}
+          items={items}
+          setOpen={setOpen}
+          setValue={setValue}
+          setItems={setItems}
+          autoScroll={true}
+          stickyHeader={true}
+          placeholder="Select an item"
+        />
+      </View>
       <ScrollView>
-        <View style={{ flex: 1, paddingHorizontal: 10 }}>
+        <View style={{ flex: 1, paddingHorizontal: 10, marginTop: 50 }}>
           <Text style={{ fontSize: 20, paddingBottom: 10 }}>{t('home.title')}</Text>
-          <DropDownPicker
-            open={open}
-            value={value}
-            items={items}
-            setOpen={setOpen}
-            setValue={setValue}
-            setItems={setItems}
-          />
+
           <News />
-        </View></ScrollView>
+        </View>
+      </ScrollView>
     </SafeAreaView>
   )
 }

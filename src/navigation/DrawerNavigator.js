@@ -12,6 +12,7 @@ const Drawer = createDrawerNavigator()
 
 const CustomDrawerContent = (props) => {
   const {t} = useTranslation();
+  
   const currentRouteName = props.nav()?.getCurrentRoute()?.name
   return (
     <DrawerContentScrollView {...props}>

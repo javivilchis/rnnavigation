@@ -12,5 +12,13 @@
         "My Rewards" : "Recompensas",
         "Locations" : "Localidades",
         "Preferences" : "Preferencias"
+    },
+    "LOGIN": {
+        "USERNAME": "Nombre de usuario",
+        "PASSWORD": "Contraseña",
+        "SIGN_IN" : "Iniciar sesión",
+        "FORGOT": "¿Olvidaste tu ",
+        "REGISTER": "Regístrate ahora",
+        "FIRST_TIME_USER": "¿Usuario por primera vez"
     }
 }
