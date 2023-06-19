@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "827720743798",
+    "project_id": "jvnavigation",
+    "storage_bucket": "jvnavigation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827720743798:android:dd58a677512d636cdb9857",
+        "android_client_info": {
+          "package_name": "com.jvnavigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827720743798-2238g5p9c92enmqr5nd35dcrh03h8990.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhqaGkTORFwFWQK2xxNlJH9gcq7prs5o8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827720743798-2238g5p9c92enmqr5nd35dcrh03h8990.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

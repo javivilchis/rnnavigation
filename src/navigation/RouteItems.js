@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Icon from 'react-native-vector-icons/FontAwesome'
 import {useTranslation} from 'react-i18next';
-import { i18n } from 'i18next';
+// import { i18n } from 'i18next';
 export const screens = {
   HomeTab: 'HomeTab',
   HomeStack: 'HomeStack',
